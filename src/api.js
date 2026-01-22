@@ -1,5 +1,4 @@
 // src/api.js
-//import { BACKEND_URL } from "./config";
 export const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
 export const getProducts = async () => {
